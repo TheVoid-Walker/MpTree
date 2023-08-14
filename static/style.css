@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f2c38;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #2c3e4e;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 20px; /* Add this line */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+input[type="file"],
+input[type="text"],
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #3498db;
+    width: 100%;
+}
+
+input[type="file"] {
+    background-color: #3498db;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+/* Additional styling for the second div */
+#youtube_div {
+    background-color: #2c3e4e;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 150px; /* Add this line for spacing between divs */
+}
+
+#youtube_link {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    background-color: #3498db;
+}
+
+#modify_link {
+    background-color: #3498db;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#modify_link:hover {
+    background-color: #2980b9;
+}
+
+/* Styling for the download page */
+.container-download {
+    background-color: #444444;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    text-align: center;
+    max-width: 400px;
+    margin-top: 30px;
+}
+
+
